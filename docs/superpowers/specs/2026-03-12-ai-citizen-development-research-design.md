@@ -42,15 +42,15 @@ Deadline: Mid-April 2026 (~1 month from 2026-03-12).
 
 3. **Market Landscape** — AI citizen development across the market. Key platforms, adoption trends, analyst perspectives (Gartner, Forrester, EDUCAUSE). General industry first, then higher education specifically.
 
-4. **Case Studies** — Documented examples of organizations that have attempted AI citizen development. Universities where possible, comparable regulated-industry organizations otherwise. Both successes and failures. Each case structured as: Institution, What They Did, Platform/Approach, Governance Model, Outcome, Lessons Learned.
+4. **Case Studies** — Documented examples of organizations that have attempted AI citizen development. Both successes and failures. Each case structured as: Institution, What They Did, Platform/Approach, Governance Model, Outcome, Lessons Learned. Peer institution priority: teaching-focused universities of comparable size, religiously affiliated institutions, and resource-constrained IT environments. Where university examples are thin, pull from comparable regulated industries (healthcare, K-12, government).
 
-5. **Compliance and Governance Analysis** — FERPA implications for citizen-built AI tools, data privacy risks, governance frameworks adopted by peer institutions. What "governed enablement" actually requires in a higher ed compliance context.
+5. **Compliance and Governance Analysis** — FERPA implications for citizen-built AI tools, data privacy risks, governance frameworks adopted by peer institutions. What "governed enablement" actually requires in a higher ed compliance context. Includes AI model governance: which LLMs/APIs citizen-built tools can call, and how to prevent student data from flowing to unvetted third-party models.
 
 6. **Platform Evaluation** — Assessment of candidate platforms against BYU-Idaho-specific criteria. Comparative, not a vendor pitch. Candidates include: Microsoft Copilot Studio, Power Platform, n8n, and others surfaced during research.
 
-7. **Decision Framework** — Three options with trade-offs:
+7. **Decision Framework** — Three options with trade-offs, each including: cost estimate (licensing, FTE governance overhead, training investment), risk profile, success metrics ("how do we know this is working?"), and implementation requirements.
    - **Option A: Restrict and Remediate** — Lock down shadow AI, no citizen development program. Addresses compliance risk but doesn't address the innovation pressure.
-   - **Option B: Governed Enablement** — Sandboxed platform with guardrails, training, approval workflows, and IT oversight. Balances enablement with governance.
+   - **Option B: Governed Enablement** — Sandboxed platform with guardrails, training, approval workflows, IT oversight, and a change management plan (training programs, champions, documentation). Balances enablement with governance.
    - **Option C: Open Access with Guidelines** — Lighter governance, broader access, heavier risk acceptance. Faster enablement but higher compliance and maintenance exposure.
 
 8. **Recommendation** — A clearly stated recommendation with justification, acknowledging that the final decision belongs to leadership.
@@ -101,6 +101,8 @@ Deadline: Mid-April 2026 (~1 month from 2026-03-12).
 
 ## Research Execution Plan
 
+A "session" is a single Claude conversation focused on one phase's deliverables. Sessions can happen back-to-back or spread across days depending on Ron's availability for validation.
+
 ### Phase 1: Foundation (Sessions 1-2)
 - Market landscape research: industry analyst reports, EDUCAUSE data, adoption trends
 - FERPA and compliance research: Department of Education guidance, institutional AI policies
@@ -112,8 +114,9 @@ Deadline: Mid-April 2026 (~1 month from 2026-03-12).
 - Categorize each case by structured template
 - **Deliverable:** Draft of Section 4 (Case Studies)
 
-### Phase 3: Platform Evaluation (Session 5)
+### Phase 3: Platform Evaluation (Sessions 5-6)
 - Research each candidate platform against BYU-Idaho's evaluation criteria
+- Prioritize Microsoft Copilot Studio and n8n (existing BYU-Idaho infrastructure) as front-runners, then evaluate alternatives
 - Produce comparative analysis, not just feature lists
 - **Deliverable:** Draft of Section 6 (Platform Evaluation)
 
@@ -123,7 +126,7 @@ Deadline: Mid-April 2026 (~1 month from 2026-03-12).
 - Identify research gaps and whether anything needs a second pass
 - **Deliverable:** Draft of Section 2 (Situational Assessment)
 
-### Phase 5: Synthesis (Sessions 6-7)
+### Phase 5: Synthesis (Sessions 7-8)
 - Build the Decision Framework (Section 7) from all gathered research
 - Draft the Recommendation (Section 8)
 - Write the Executive Summary (Section 1) last
