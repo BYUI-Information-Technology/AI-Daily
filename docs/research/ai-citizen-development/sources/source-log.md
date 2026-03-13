@@ -11,10 +11,14 @@ Running log of every source consulted during research. For traceability and Ron'
 | Task 4 | Section 5: Compliance and Governance | 41 sources | [sources-task4-compliance.md](sources-task4-compliance.md) |
 | Task 6 | Section 4: Case Studies (Successes) | 50 sources | [sources-task6-successes.md](sources-task6-successes.md) |
 | Task 7 | Section 4: Case Studies (Failures) | 60 sources | [sources-task7-failures.md](sources-task7-failures.md) |
+| Task 9 | Section 6: Platform Evaluation (Microsoft) | 30 sources | [sources-task9-microsoft.md](sources-task9-microsoft.md) |
+| Task 10 | Section 6: Platform Evaluation (n8n) | 32 sources | [sources-task10-n8n.md](sources-task10-n8n.md) |
+| Task 11 | Section 6: Platform Evaluation (Alternatives) | 34 sources | [sources-task11-alternatives.md](sources-task11-alternatives.md) |
 
 **Total sources consulted (Phase 1): 86**
 **Total sources consulted (Phase 2): 110**
-**Running total: 196**
+**Total sources consulted (Phase 3): 96**
+**Running total: 292**
 
 ## Paywalled Sources
 
@@ -63,3 +67,11 @@ Ron should assess whether institutional access to any of these would strengthen 
 - Citizen development failure statistics are aging (CIMI Corporation's 54% failure rate is from 2018)
 - Vendor bias in governance literature -- many governance frameworks come from vendors selling governance solutions
 - FERPA violations handled through Department of Education compliance processes have less public visibility than FTC or GDPR enforcement
+
+### Platform Evaluation
+- Copilot Studio-specific (not M365 Copilot) deployments in higher education remain sparse; most documented cases are the user-facing assistant
+- n8n Enterprise pricing is not publicly available; cost comparison requires direct sales engagement
+- No platform holds a FERPA-specific certification (none exists); all FERPA assessments are based on technical capabilities and contractual posture
+- ServiceNow fit assessment depends on whether BYU-Idaho is an existing customer (not confirmed in research)
+- Retool education program terms and eligibility for institutional (not individual) use need verification
+- No independent head-to-head comparison of these platforms for higher education citizen development exists in the literature
