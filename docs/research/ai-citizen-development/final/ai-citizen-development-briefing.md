@@ -26,8 +26,6 @@
 
 # Section 1: Executive Summary
 
-## AI Citizen Development at BYU-Idaho: Findings and Recommendation
-
 **The situation.** President Meredith identified AI as a top-three strategic priority -- to enhance learning, improve workforce readiness, and strengthen student support. Employees have responded by adopting AI-powered tools to build applications on their own, a practice known as *citizen development* (building software applications without formal IT training). This grassroots activity is already underway at BYU-Idaho, but it is happening outside institutional governance, creating immediate compliance risk.
 
 **What we found.** Our research -- spanning 292 sources, 26 case studies, and an evaluation of 9 platforms -- identified three key findings. First, shadow AI is active now: employees are using unvetted platforms such as Base44 and Lovable with individual API keys to build apps that handle student data. A review of the MKTG 170 course built on Base44 produced 14 compliance findings, 5 of them critical, including student grades visible to all class members and education records transmitted to an unknown third-party LLM -- clear FERPA violations. Second, BYU-Idaho's existing governance (4-tier data classification, AI Committee, approved tool list) is ahead of most peers, but it addresses *using* AI, not *building with* AI. Third, no platform on the market today fully combines AI-powered app generation, enterprise-grade governance, and FERPA compliance -- a gap that makes a rush to adoption premature.
@@ -39,14 +37,6 @@
 ---
 
 # Section 2: BYU-Idaho Situational Assessment
-
-**Prepared for:** BYU-Idaho CIO Office
-**Author:** Ron Vallejo, AI Solutions Architect
-**Date:** 2026-03-13
-**Status:** Draft -- pending Ron's review
-**Classification:** Internal -- IT Leadership
-
----
 
 ## Why This Briefing Exists
 
@@ -245,7 +235,7 @@ The research, case studies, and platform evaluation all point toward a version o
 
 ---
 
-# Market Landscape
+# Section 3: Market Landscape
 
 ## AI Citizen Development: Market Overview
 
@@ -374,23 +364,17 @@ Microsoft's Power Platform CoE toolkit is one concrete example of a governance f
 
 ---
 
-## [PLACEHOLDER: Higher Education -- drafted by separate agent]
+## Higher Education Market Landscape
 
-*This section will cover higher education-specific adoption patterns, unique constraints (FERPA, shared governance, academic freedom), and peer institution case studies. Content pending from the higher education research agent.*
+### Where Universities Stand on AI Citizen Development
 
----
-
-# Market Landscape: Higher Education
-
-## Where Universities Stand on AI Citizen Development
-
-### Adoption Is Accelerating, but Strategy Lags
+#### Adoption Is Accelerating, but Strategy Lags
 
 Higher education AI adoption has surged. Ellucian's 2025 survey found that 66% of institutions are actively leveraging AI, up from 49% the prior year, with 88% expecting usage to increase further over the next two years. The 2025 EDUCAUSE AI Landscape Study confirmed this trajectory: 57% of respondents now view AI as a strategic priority, up from 49% in 2024.
 
 However, adoption is outrunning governance and strategy. Only 11% of CTOs report having a comprehensive AI strategy. More than half of institutions (53%) remain focused on individual use cases rather than campus-wide approaches. The Digital Education Council's 2025 Global AI Faculty Survey found that just 4% of faculty are fully aware of institutional AI guidelines and consider them comprehensive.
 
-### How Higher Ed Compares to the Broader Market
+#### How Higher Ed Compares to the Broader Market
 
 Higher education trails the enterprise sector in structured citizen development by a significant margin. Where industry has formalized citizen developer programs, designated centers of excellence, and deployed enterprise-grade low-code/no-code platforms, most universities have no equivalent structure. The low-code/no-code market reached $45.5 billion globally in 2025, with 80% of organizations expecting non-IT staff to develop operational tools. Higher education's engagement with this movement is largely informal and unmanaged.
 
@@ -398,13 +382,13 @@ The concept of "citizen development" as a deliberate organizational strategy, wh
 
 This represents a meaningful gap. Universities have the same underlying dynamic as enterprises (technically capable non-IT staff building solutions to local problems) but lack the organizational scaffolding to govern it.
 
-### Key Drivers
+#### Key Drivers
 
 - **Resource constraints.** Teaching-focused institutions face flat or declining IT budgets alongside rising demand for digital services. AI-powered automation offers a path to doing more with less. EDUCAUSE's Top 10 #9 (AI-Enabled Efficiencies and Growth) specifically calls out the promise of "automated administrative processes that reduce staff burden."
 - **Faculty autonomy culture.** Academic departments function with high independence. Faculty and staff are accustomed to selecting their own tools, making grassroots AI adoption a natural extension of existing behavior.
 - **Competitive pressure.** Institutions see peer adoption and feel pressure to keep pace, particularly for student-facing services and enrollment operations.
 
-### Key Barriers
+#### Key Barriers
 
 - **Data privacy regulation.** FERPA adds compliance stakes that most industries do not face. The use of student education records with AI tools requires explicit consent unless covered by directory information exceptions. AACRAO's forthcoming 2026 FERPA publication will address AI and student privacy directly, signaling that the regulatory landscape is still being defined.
 - **Governance immaturity.** EDUCAUSE's 2024 AI Landscape Study found that only 9% of respondents considered their cybersecurity and privacy policies adequate to address AI-related risks.
@@ -413,9 +397,9 @@ This represents a meaningful gap. Universities have the same underlying dynamic 
 
 ---
 
-## University AI Governance Approaches
+### University AI Governance Approaches
 
-### Published Institutional AI Policies
+#### Published Institutional AI Policies
 
 A growing number of universities have published formal AI policies, though the scope and maturity vary considerably.
 
@@ -434,7 +418,7 @@ A growing number of universities have published formal AI policies, though the s
 - **Northern Illinois University** offers structured class-level AI policy templates.
 - **Georgia Gwinnett College** has published an acceptable use policy for AI covering both academic and administrative purposes, notable as a mid-size teaching institution (a closer peer to BYU-Idaho than research-intensive universities).
 
-### Common Governance Models
+#### Common Governance Models
 
 Based on published examples, three governance approaches are emerging:
 
@@ -442,13 +426,13 @@ Based on published examples, three governance approaches are emerging:
 2. **Principles-based frameworks.** Institutions publish ethical principles and acceptable use guidelines but leave tool selection largely to departments. EDUCAUSE's AI Ethical Guidelines, inspired by the Belmont Report, exemplify this approach.
 3. **Decentralized, syllabus-level policies.** Many institutions leave AI governance to individual instructors or departments, resulting in inconsistent rules across campus. This is the most common current state.
 
-### What Is Working
+#### What Is Working
 
 - Institutions that provide approved tool lists report higher user awareness and lower shadow AI risk.
 - EDUCAUSE recommends "walled AI sandboxes" that give users space for experimentation "without fear of breaking things or exposing the institution to risk." This balanced approach acknowledges that overly restrictive policies drive usage underground.
 - The UNESCO global survey (September 2025) found that 19% of institutions already have formal AI policies, with 42% actively developing them. In North America and Europe, approximately 70% have or are developing guidance.
 
-### What Is Missing
+#### What Is Missing
 
 - **Operational AI governance for staff workflows.** Nearly all published policies focus on academic use (teaching, research, student assignments). Policies governing how administrative staff use AI for day-to-day operational tasks are rare.
 - **Citizen development guardrails.** No surveyed university has published a policy framework equivalent to an enterprise citizen development program, where non-IT staff build applications or automations within defined governance boundaries.
@@ -457,9 +441,9 @@ Based on published examples, three governance approaches are emerging:
 
 ---
 
-## Shadow AI in Higher Education
+### Shadow AI in Higher Education
 
-### Scope of the Problem
+#### Scope of the Problem
 
 Shadow AI in higher education is pervasive and growing. The data paints a consistent picture across multiple surveys:
 
@@ -471,7 +455,7 @@ Shadow AI in higher education is pervasive and growing. The data paints a consis
 
 EDUCAUSE research consistently finds that universities have far more AI tools operating across campuses than IT departments know about, including AI writing assistants, research automation tools, coding copilots, data analysis platforms, and AI tutoring systems operating entirely outside institutional data governance perimeters.
 
-### Why Shadow AI Thrives in Universities
+#### Why Shadow AI Thrives in Universities
 
 Universities are structurally predisposed to shadow AI for reasons that differ from typical enterprises:
 
@@ -480,7 +464,7 @@ Universities are structurally predisposed to shadow AI for reasons that differ f
 - **Policy vacuum.** When institutions lack clear, accessible policies, users default to whatever tool is most convenient.
 - **Demand for better tools.** 76% of education employees want clearer AI policies, 72% want access to official tools, and 56% want better education on risks. The demand signal is there; the institutional response has not kept pace.
 
-### The FERPA Compliance Dimension
+#### The FERPA Compliance Dimension
 
 Shadow AI in higher education carries compliance risks that most industries do not face. FERPA governs the use and disclosure of student education records, and AI tools that process student data can create violations in ways users may not anticipate:
 
@@ -494,9 +478,9 @@ For a FERPA-regulated institution like BYU-Idaho, unsanctioned AI use by staff h
 
 ---
 
-## The Gap
+### The Gap
 
-### What Higher Education Lacks Compared to Industry
+#### What Higher Education Lacks Compared to Industry
 
 The enterprise sector has spent five or more years building citizen development programs with defined components: governance frameworks, approved tool catalogs, training curricula, centers of excellence, and monitoring systems. Higher education has almost none of this infrastructure:
 
@@ -509,7 +493,7 @@ The enterprise sector has spent five or more years building citizen development 
 | Usage monitoring | Automated shadow IT/AI detection | 84% of IT leaders say adoption outpaces assessment |
 | Compliance integration | Built into citizen development workflows | Largely absent; FERPA implications unaddressed at most institutions |
 
-### Why Enterprise Solutions Do Not Directly Translate
+#### Why Enterprise Solutions Do Not Directly Translate
 
 Standard enterprise citizen development frameworks assume organizational characteristics that many universities, particularly teaching-focused institutions, do not share:
 
@@ -519,7 +503,7 @@ Standard enterprise citizen development frameworks assume organizational charact
 - **Homogeneous compliance requirements.** Enterprise frameworks address a known regulatory profile. Universities face a layered compliance environment: FERPA, state data privacy laws, institutional review board requirements for research, accessibility mandates, and (for religiously affiliated institutions) values-alignment considerations that have no enterprise parallel.
 - **Risk tolerance.** Enterprise citizen development programs assume a baseline organizational risk tolerance. Universities, particularly those serving vulnerable populations (students) under FERPA, have lower tolerance for data exposure incidents but fewer resources to prevent them.
 
-### The Opportunity
+#### The Opportunity
 
 The gap between enterprise maturity and higher education's current state is not just a deficit; it is an opportunity to build something purpose-fit. A university-specific citizen development framework could:
 
@@ -1054,7 +1038,7 @@ Microsoft Copilot did not create overpermissioning problems -- it surfaced and a
 
 ---
 
-# Compliance and Governance Analysis
+# Section 5: Compliance and Governance Analysis
 
 ## FERPA Requirements for AI Tools
 
@@ -1329,19 +1313,7 @@ These costs are real and recurring. They should be budgeted explicitly, not trea
 
 ---
 
-*Draft prepared for CIO executive briefing on AI citizen development. This section addresses compliance and governance requirements. It should be reviewed by institutional legal counsel and the FERPA compliance officer before finalization.*
-
----
-
 # Section 6: Platform Evaluation
-
-**Prepared for:** BYU-Idaho CIO Office
-**Author:** Ron Vallejo, AI Solutions Architect
-**Date:** 2026-03-13
-**Status:** Draft
-**Sources consulted:** 96 (30 Microsoft, 32 n8n, 34 alternatives)
-
----
 
 ## Executive Summary
 
@@ -1784,14 +1756,6 @@ The platforms provide the tools. The institution must provide the governance.
 
 # Section 7: Decision Framework
 
-**Prepared for:** BYU-Idaho CIO Office
-**Author:** Ron Vallejo, AI Solutions Architect
-**Date:** 2026-03-13
-**Status:** Draft -- pending Ron's review
-**Classification:** Internal -- IT Leadership
-
----
-
 ## Purpose
 
 This section presents three options for the CIO's decision on AI citizen development at BYU-Idaho. Each option is assessed on compliance risk, implementation cost, IT resource requirements, innovation enablement, and sustainability. The options are presented neutrally -- the CIO's judgment on institutional priorities and risk tolerance determines the right choice.
@@ -2117,19 +2081,7 @@ Every option in this framework should be evaluated against the question: **Does 
 
 ---
 
-*This section presents options for the CIO's consideration. The research, case studies, compliance analysis, and platform evaluation conducted across Sections 2-6 inform these assessments. The decision depends on institutional risk tolerance, investment willingness, and strategic priorities. This section should be reviewed alongside the platform evaluation (Section 6) and compliance analysis (Section 5) for supporting detail.*
-
----
-
 # Section 8: Recommendation
-
-**Prepared for:** BYU-Idaho CIO Office
-**Author:** Ron Vallejo, AI Solutions Architect
-**Date:** 2026-03-13
-**Status:** Draft -- pending Ron's review
-**Classification:** Internal -- IT Leadership
-
----
 
 ## Recommendation
 
