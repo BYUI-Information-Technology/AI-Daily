@@ -142,6 +142,44 @@ This initiative is foundational. It establishes the governance infrastructure th
 
 ---
 
+## The Platform Gap
+
+Even if BYU-Idaho resolved every governance, staffing, and policy challenge described above, a fundamental market problem remains: **there is no platform today that responsibly enables AI citizen development the way employees want to use it.**
+
+### What Employees Want vs. What Exists
+
+The shadow AI tools driving demand -- Lovable, Base44, and similar AI app builders -- let users describe what they want in natural language and receive a working application. This is the capability employees are reaching for when they bypass IT. It is fast, intuitive, and produces real results (the MKTG 170 application was functional and pedagogically useful, despite its security failures).
+
+The platform evaluation (Section 6) found that no enterprise-governed platform replicates this experience:
+
+- **Microsoft Copilot Studio** builds chatbots, not applications. It does not generate full-stack apps from natural language. Ron's firsthand assessment that it is "difficult to use even for technical users" is corroborated by community feedback.
+- **Power Apps** builds applications but requires manual drag-and-drop construction -- no AI generation. The learning curve is significant for non-technical users.
+- **n8n** is a workflow automation tool for technical users, not a citizen development platform.
+- **Retool** builds internal tools with AI assistance, but targets a more technical persona than the typical faculty member.
+- **Lovable and Base44** provide the user experience employees want, but lack the governance controls, FERPA compliance, and institutional oversight that responsible deployment requires.
+
+### The Market Gap Is Real
+
+No major platform vendor -- including Microsoft -- currently offers a product that combines:
+1. Natural language-to-application generation (what makes shadow AI tools attractive)
+2. Enterprise governance controls (RBAC, DLP, audit logging, environment isolation)
+3. FERPA-compatible data handling (institutional control, contractual protections, data residency)
+4. A learning curve accessible to non-technical university employees
+
+This is not a BYU-Idaho problem. It is a market maturity problem. The AI app builder category (Lovable, Base44, Bolt.new) is growing explosively -- Lovable reached $200M ARR and a $6.6B valuation in December 2025 -- but enterprise governance features lag behind the core product experience. The traditional low-code category (Power Platform, ServiceNow) has governance but lacks the AI-native generation capability that drives demand.
+
+### What This Means for the Decision
+
+The platform gap adds a dimension to the CIO's decision that stakeholders may not appreciate:
+
+- **"Just give us Copilot Studio"** does not solve the problem. Copilot Studio does not do what employees are reaching for with Lovable and Base44.
+- **"Approve Lovable for institutional use"** does not solve the problem either. Lovable lacks the governance controls required for FERPA compliance, and every generated application becomes an independent maintenance liability.
+- **The honest answer is that the market has not yet produced a platform that satisfies both the demand side (easy AI app generation) and the governance side (institutional control and compliance).** This gap will likely close as the AI app builder category matures and adds enterprise features, or as traditional platforms add AI generation capabilities -- but it has not closed yet.
+
+This does not mean BYU-Idaho should wait. It means the institution should pursue a layered strategy (detailed in the Decision Framework) that addresses immediate risks, establishes governance foundations, and positions the university to adopt the right platform when the market catches up. The IT Front Door initiative is the first step in that strategy.
+
+---
+
 ## The Decision the CIO Faces
 
 The situational assessment reveals a convergence of pressures:
@@ -155,6 +193,7 @@ The situational assessment reveals a convergence of pressures:
 | **Historical precedent** | Power Automate citizen development became ungoverned technical debt |
 | **IT capacity** | Resource-constrained; no dedicated citizen development governance staffing |
 | **CIO positioning** | Building the governance foundation (IT Front Door) as the prerequisite |
+| **Platform gap** | No platform combines AI app generation + enterprise governance + FERPA compliance. The market has not caught up to the demand. |
 
 The CIO must decide between three options, detailed in Section 7 (Decision Framework):
 
