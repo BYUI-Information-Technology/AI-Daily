@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Standalone drag-and-drop degree planner for BYU-Idaho students. Built with Next.js 16, React 19, shadcn/ui, dnd-kit, and Zustand. All data is mock (no backend); state persists to localStorage.
 
+## Context
+
+This project was built as part of a BYU-Idaho IT department activity where employees were challenged to spend roughly 20-30 minutes "vibe coding" a web app of their choice using Claude Code. The CIO drafted a plan using `/plan`, then let Claude develop the app as an agentic pair programmer. This is not intended as a replacement for the official degree planner — it is a demonstration of how quickly Claude Code can build a functional application.
+
 ## Commands
 
 ```bash
